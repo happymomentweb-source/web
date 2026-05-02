@@ -24,9 +24,9 @@ body {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(12px);
     border-radius: 25px;
-    padding: 30px;
+    padding: 40px;
     width: 90%;
-    max-width: 420px;
+    max-width: 480px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     text-align: center;
 }
@@ -45,18 +45,22 @@ h1 {
 .sub {
     color: #6b7280;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    word-wrap: break-word;
 }
 
 /* กล่อง */
 .box {
     background: linear-gradient(135deg, #f0faff, #ffffff);
     border-radius: 15px;
-    padding: 15px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 12px 0;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     transition: 0.3s;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .box:hover {
@@ -65,16 +69,19 @@ h1 {
 
 /* หัวข้อ */
 .box h3 {
-    margin: 0;
+    margin: 0 0 10px 0;
     color: #38bdf8;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 /* ราคา */
 .price {
     font-weight: bold;
     color: #0ea5e9;
-    font-size: 16px;
+    font-size: 18px;
+    margin: 8px 0;
 }
 
 /* เร่งด่วน */
@@ -94,6 +101,13 @@ h1 {
     font-weight: bold;
     transition: 0.3s;
     box-shadow: 0 5px 15px rgba(56,189,248,0.4);
+}
+
+/* ข้อความ */
+.box p {
+    margin: 8px 0;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 .btn:hover {
